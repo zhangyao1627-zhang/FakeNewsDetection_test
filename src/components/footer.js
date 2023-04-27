@@ -4,7 +4,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 function Footer(props) {
     return (
         <footer>
-            <Container>
+            <Container className="py-5">
                 <Row>
                     <Col className="text-center"> Copyright &copy; FakeNewsDetection </Col>
                 </Row>
